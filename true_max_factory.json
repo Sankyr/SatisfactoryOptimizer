@@ -1,32 +1,32 @@
 {
   "_COMMENTS": {
-	"Points/min": 499495064.96817684,
+	"Points/min": 463281461.77566177,
 	"TotalSloopsUsed": 103.0,
-	"TotalPowerProduced": "1522967.581772079 (1515867.581772079 + 7100)",
-	"TotalBoostedPower": 1522967.581772079,
-	"TotalPowerConsumed": -1522967.5817720788
+	"TotalPowerProduced": "1379214.7327081324 (1372114.7327081324 + 7100)",
+	"TotalBoostedPower": 1379214.7327081324,
+	"TotalPowerConsumed": -1379184.7327081321
   },
   "Plutonium Fuel Rod (Sink)": {
     "ingredients": {
-      "Desc_PlutoniumFuelRod_C": 7.875
+      "Desc_PlutoniumFuelRod_C": 12.6
     },
     "products": {}
   },
   "Assembly Director System (Sink)": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_7_C": 164.32840828987793
+      "Desc_SpaceElevatorPart_7_C": 140.86441200210834
     },
     "products": {}
   },
   "AI Expansion Server (Sink)": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_12_C": 115.22965945470833
+      "Desc_SpaceElevatorPart_12_C": 120
     },
     "products": {}
   },
   "Ballistic Warp Drive (Sink)": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_11_C": 119.92688186957136
+      "Desc_SpaceElevatorPart_11_C": 110.23809523809524
     },
     "products": {}
   },
@@ -64,24 +64,6 @@
     "ingredients": {},
     "products": {
       "Desc_Coal_C": 19200
-    }
-  },
-  "Nitrogen Well (Impure)": {
-    "ingredients": {},
-    "products": {
-      "Desc_NitrogenGas_C": 150
-    }
-  },
-  "Nitrogen Well (Normal)": {
-    "ingredients": {},
-    "products": {
-      "Desc_NitrogenGas_C": 1050
-    }
-  },
-  "Nitrogen Well (Pure)": {
-    "ingredients": {},
-    "products": {
-      "Desc_NitrogenGas_C": 10800
     }
   },
   "Sulfur (Impure)": {
@@ -177,13 +159,13 @@
   "Limestone (Normal)": {
     "ingredients": {},
     "products": {
-      "Desc_Stone_C": 29400
+      "Desc_Stone_C": 30000
     }
   },
   "Limestone (Pure)": {
     "ingredients": {},
     "products": {
-      "Desc_Stone_C": 36000
+      "Desc_Stone_C": 34800
     }
   },
   "Quartz (Impure)": {
@@ -219,171 +201,224 @@
   "Oil (Impure)": {
     "ingredients": {},
     "products": {
-      "Desc_LiquidOil_C": 3000
+      "Desc_LiquidOil_C": 1500
     }
   },
   "Oil (Normal)": {
     "ingredients": {},
     "products": {
-      "Desc_LiquidOil_C": 7200
+      "Desc_LiquidOil_C": 3600
     }
   },
   "Oil (Pure)": {
     "ingredients": {},
     "products": {
-      "Desc_LiquidOil_C": 9600
+      "Desc_LiquidOil_C": 4800
     }
   },
-  "Oil Well (Impure)": {
+  "Nitrogen Well 1": {
     "ingredients": {},
     "products": {
-      "Desc_LiquidOil_C": 600
+      "Desc_NitrogenGas_C": 1950
     }
   },
-  "Oil Well (Normal)": {
+  "Nitrogen Well 2": {
+    "ingredients": {},
+    "products": {
+      "Desc_NitrogenGas_C": 1800
+    }
+  },
+  "Nitrogen Well 3": {
+    "ingredients": {},
+    "products": {
+      "Desc_NitrogenGas_C": 1650
+    }
+  },
+  "Nitrogen Well 4": {
+    "ingredients": {},
+    "products": {
+      "Desc_NitrogenGas_C": 3000
+    }
+  },
+  "Nitrogen Well 5": {
+    "ingredients": {},
+    "products": {
+      "Desc_NitrogenGas_C": 1500
+    }
+  },
+  "Nitrogen Well 6": {
+    "ingredients": {},
+    "products": {
+      "Desc_NitrogenGas_C": 2100
+    }
+  },
+  "Oil Well 1": {
     "ingredients": {},
     "products": {
       "Desc_LiquidOil_C": 900
     }
   },
-  "Oil Well (Pure)": {
+  "Oil Well 2": {
     "ingredients": {},
     "products": {
-      "Desc_LiquidOil_C": 1200
+      "Desc_LiquidOil_C": 1350
+    }
+  },
+  "Oil Well 3": {
+    "ingredients": {},
+    "products": {
+      "Desc_LiquidOil_C": 450
     }
   },
   "Water": {
     "ingredients": {},
     "products": {
-      "Desc_Water_C": 218620.1216685105
+      "Desc_Water_C": 231412.21667349004
+    }
+  },
+  "Iron Plate": {
+    "ingredients": {
+      "Desc_IronIngot_C": 4225.284365291232
+    },
+    "products": {
+      "Desc_IronPlate_C": 2816.856243527488
     }
   },
   "Cable": {
     "ingredients": {
-      "Desc_Wire_C": 65731.36331595117
+      "Desc_Wire_C": 56345.76480084333
     },
     "products": {
-      "Desc_Cable_C": 32865.68165797558
+      "Desc_Cable_C": 28172.882400421666
+    }
+  },
+  "Versatile Framework": {
+    "ingredients": {
+      "Desc_ModularFrame_C": 13.547543243314436,
+      "Desc_SteelPlate_C": 162.57051891977324
+    },
+    "products": {
+      "Desc_SpaceElevatorPart_2_C": 27.095086486628873
     }
   },
   "Residual Rubber": {
     "ingredients": {
-      "Desc_PolymerResin_C": 14150.978623646328,
-      "Desc_Water_C": 14150.978623646328
+      "Desc_PolymerResin_C": 8400.000000000002,
+      "Desc_Water_C": 8400.000000000002
     },
     "products": {
-      "Desc_Rubber_C": 7075.489311823164
+      "Desc_Rubber_C": 4200.000000000001
     }
   },
   "Petroleum Coke": {
     "ingredients": {
-      "Desc_HeavyOilResidue_C": 5986.155458075259
+      "Desc_HeavyOilResidue_C": 2820.140348422039
     },
     "products": {
-      "Desc_PetroleumCoke_C": 17958.466374225776
+      "Desc_PetroleumCoke_C": 8460.421045266117
     }
   },
   "Stator": {
     "ingredients": {
-      "Desc_SteelPipe_C": 8635.407390475892,
-      "Desc_Wire_C": 23027.753041269047
+      "Desc_SteelPipe_C": 8188.165071215595,
+      "Desc_Wire_C": 21835.106856574923
     },
     "products": {
-      "Desc_Stator_C": 2878.469130158631
+      "Desc_Stator_C": 2729.3883570718654
     }
   },
   "Automated Wiring": {
     "ingredients": {
-      "Desc_Stator_C": 1643.2840828987792,
-      "Desc_Cable_C": 32865.68165797558
+      "Desc_Stator_C": 1408.6441200210836,
+      "Desc_Cable_C": 28172.88240042167
     },
     "products": {
-      "Desc_SpaceElevatorPart_3_C": 1643.2840828987792
+      "Desc_SpaceElevatorPart_3_C": 1408.6441200210836
     }
   },
   "Nitric Acid": {
     "ingredients": {
-      "Desc_NitrogenGas_C": 12249.029043350238,
-      "Desc_Water_C": 3062.2572608375594,
-      "Desc_IronPlate_C": 1020.7524202791865
+      "Desc_NitrogenGas_C": 6629.350521695836,
+      "Desc_Water_C": 1657.337630423959,
+      "Desc_IronPlate_C": 552.4458768079863
     },
     "products": {
-      "Desc_NitricAcid_C": 3062.2572608375594
+      "Desc_NitricAcid_C": 1657.337630423959
     }
   },
   "Plutonium Fuel Rod": {
     "ingredients": {
-      "Desc_PlutoniumCell_C": 236.25,
-      "Desc_SteelPlate_C": 141.75,
-      "Desc_ElectromagneticControlRod_C": 47.25,
-      "Desc_AluminumPlateReinforced_C": 78.75
+      "Desc_PlutoniumCell_C": 378,
+      "Desc_SteelPlate_C": 226.8,
+      "Desc_ElectromagneticControlRod_C": 75.6,
+      "Desc_AluminumPlateReinforced_C": 126
     },
     "products": {
-      "Desc_PlutoniumFuelRod_C": 7.875
+      "Desc_PlutoniumFuelRod_C": 12.6
     }
   },
   "Encased Plutonium Cell": {
     "ingredients": {
-      "Desc_PlutoniumPellet_C": 472.49999999999994,
-      "Desc_Cement_C": 944.9999999999999
+      "Desc_PlutoniumPellet_C": 756,
+      "Desc_Cement_C": 1512
     },
     "products": {
-      "Desc_PlutoniumCell_C": 236.24999999999997
+      "Desc_PlutoniumCell_C": 378
     }
   },
   "Pressure Conversion Cube": {
     "ingredients": {
-      "Desc_ModularFrameFused_C": 29.981720467392833,
-      "Desc_ModularFrameLightweight_C": 59.963440934785666
+      "Desc_ModularFrameFused_C": 27.619047619047613,
+      "Desc_ModularFrameLightweight_C": 55.23809523809523
     },
     "products": {
-      "Desc_PressureConversionCube_C": 29.981720467392833
+      "Desc_PressureConversionCube_C": 27.619047619047613
     }
   },
   "Plutonium Pellet": {
     "ingredients": {
-      "Desc_NonFissibleUranium_C": 1575,
-      "Desc_NuclearWaste_C": 393.75
+      "Desc_NonFissibleUranium_C": 2520,
+      "Desc_NuclearWaste_C": 630
     },
     "products": {
-      "Desc_PlutoniumPellet_C": 472.5
+      "Desc_PlutoniumPellet_C": 756
     }
   },
   "Non-Fissile Uranium": {
     "ingredients": {
-      "Desc_NuclearWaste_C": 1181.25,
-      "Desc_Silica_C": 787.5,
-      "Desc_NitricAcid_C": 472.5,
-      "Desc_SulfuricAcid_C": 472.5
+      "Desc_NuclearWaste_C": 1890,
+      "Desc_Silica_C": 1260,
+      "Desc_NitricAcid_C": 756,
+      "Desc_SulfuricAcid_C": 756
     },
     "products": {
-      "Desc_NonFissibleUranium_C": 1575,
-      "Desc_Water_C": 472.5
+      "Desc_NonFissibleUranium_C": 2520,
+      "Desc_Water_C": 756
     }
   },
   "Copper Powder": {
     "ingredients": {
-      "Desc_CopperIngot_C": 35978.064560871404
+      "Desc_CopperIngot_C": 33142.85714285714
     },
     "products": {
-      "Desc_CopperDust_C": 5996.344093478567
+      "Desc_CopperDust_C": 5523.809523809523
     }
   },
   "Nuclear Pasta": {
     "ingredients": {
-      "Desc_CopperDust_C": 5996.344093478567,
-      "Desc_PressureConversionCube_C": 29.981720467392833
+      "Desc_CopperDust_C": 5523.809523809523,
+      "Desc_PressureConversionCube_C": 27.619047619047613
     },
     "products": {
-      "Desc_SpaceElevatorPart_9_C": 29.981720467392833
+      "Desc_SpaceElevatorPart_9_C": 27.619047619047613
     }
   },
   "Time Crystal": {
     "ingredients": {
-      "Desc_Diamond_C": 5279.0681090583275
+      "Desc_Diamond_C": 4704.7619047619055
     },
     "products": {
-      "Desc_TimeCrystal_C": 2639.5340545291638
+      "Desc_TimeCrystal_C": 2352.3809523809527
     }
   },
   "Reanimated SAM": {
@@ -396,747 +431,729 @@
   },
   "Coal (Limestone)": {
     "ingredients": {
-      "Desc_SAMIngot_C": 661.9680801268545,
-      "Desc_Stone_C": 23830.85088456676
+      "Desc_SAMIngot_C": 846.3604934445902,
+      "Desc_Stone_C": 30468.97776400525
     },
     "products": {
-      "Desc_Coal_C": 7943.616961522253
+      "Desc_Coal_C": 10156.325921335083
     }
   },
   "Ficsite Trigon": {
     "ingredients": {
-      "Desc_FicsiteIngot_C": 487.917115969255
+      "Desc_FicsiteIngot_C": 400
     },
     "products": {
-      "Desc_FicsiteMesh_C": 1463.751347907765
+      "Desc_FicsiteMesh_C": 1200
     }
   },
   "Ficsite Ingot (Aluminum)": {
     "ingredients": {
-      "Desc_SAMIngot_C": 975.8342319385101,
-      "Desc_AluminumIngot_C": 1951.6684638770203
+      "Desc_SAMIngot_C": 800.0000000000001,
+      "Desc_AluminumIngot_C": 1600.0000000000002
     },
     "products": {
-      "Desc_FicsiteIngot_C": 487.91711596925506
+      "Desc_FicsiteIngot_C": 400.00000000000006
     }
   },
   "Bauxite (Copper)": {
     "ingredients": {
-      "Desc_SAMIngot_C": 257.881671364612,
-      "Desc_OreCopper_C": 4641.870084563016
+      "Desc_SAMIngot_C": 173.49038369841824,
+      "Desc_OreCopper_C": 3122.8269065715285
     },
     "products": {
-      "Desc_OreBauxite_C": 3094.5800563753437
+      "Desc_OreBauxite_C": 2081.884604381019
     }
   },
   "Nitrogen Gas (Caterium)": {
     "ingredients": {
-      "Desc_SAMIngot_C": 200.64274308354348,
-      "Desc_OreGold_C": 2407.712917002522
+      "Desc_SAMIngot_C": 134.1507459723013,
+      "Desc_OreGold_C": 1609.8089516676157
     },
     "products": {
-      "Desc_NitrogenGas_C": 2407.712917002522
+      "Desc_NitrogenGas_C": 1609.8089516676157
     }
   },
   "Bauxite (Caterium)": {
     "ingredients": {
-      "Desc_SAMIngot_C": 372.199929140269,
-      "Desc_OreGold_C": 5582.998937104035
+      "Desc_SAMIngot_C": 336.04136164867424,
+      "Desc_OreGold_C": 5040.620424730114
     },
     "products": {
-      "Desc_OreBauxite_C": 4466.399149683228
+      "Desc_OreBauxite_C": 4032.496339784091
     }
   },
   "Sulfur (Iron)": {
     "ingredients": {
-      "Desc_SAMIngot_C": 81.47334434620734,
-      "Desc_OreIron_C": 2444.2003303862202
+      "Desc_SAMIngot_C": 259.9570152360151,
+      "Desc_OreIron_C": 7798.710457080452
     },
     "products": {
-      "Desc_Sulfur_C": 977.6801321544881
+      "Desc_Sulfur_C": 3119.484182832181
     }
   },
   "Excited Photonic Matter": {
     "ingredients": {},
     "products": {
-      "Desc_QuantumEnergy_C": 10316.928786278111
+      "Desc_QuantumEnergy_C": 8761.904761904763
     }
   },
   "Superposition Oscillator": {
     "ingredients": {
-      "Desc_DarkMatter_C": 1305.0618303805343,
-      "Desc_CrystalOscillator_C": 217.51030506342238,
-      "Desc_AluminumPlate_C": 1957.5927455708015,
-      "Desc_QuantumEnergy_C": 5437.7576265855605
+      "Desc_DarkMatter_C": 1142.857142857143,
+      "Desc_CrystalOscillator_C": 190.47619047619048,
+      "Desc_AluminumPlate_C": 1714.2857142857144,
+      "Desc_QuantumEnergy_C": 4761.904761904763
     },
     "products": {
-      "Desc_QuantumOscillator_C": 217.51030506342238,
-      "Desc_DarkEnergy_C": 5437.7576265855605
+      "Desc_QuantumOscillator_C": 190.47619047619048,
+      "Desc_DarkEnergy_C": 4761.904761904763
     }
   },
   "Neural-Quantum Processor": {
     "ingredients": {
-      "Desc_TimeCrystal_C": 487.91711596925506,
-      "Desc_ComputerSuper_C": 97.58342319385102,
-      "Desc_FicsiteMesh_C": 1463.7513479077652,
-      "Desc_QuantumEnergy_C": 2439.5855798462753
+      "Desc_TimeCrystal_C": 400,
+      "Desc_ComputerSuper_C": 80,
+      "Desc_FicsiteMesh_C": 1200,
+      "Desc_QuantumEnergy_C": 2000
     },
     "products": {
-      "Desc_TemporalProcessor_C": 97.58342319385102,
-      "Desc_DarkEnergy_C": 2439.5855798462753
+      "Desc_TemporalProcessor_C": 80,
+      "Desc_DarkEnergy_C": 2000
     }
   },
-  "AI Expansion Server": {
+  "AI Expansion Server (Sloopedx2)": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_6_C": 79.93718693299371,
-      "Desc_TemporalProcessor_C": 79.93718693299371,
-      "Desc_QuantumOscillator_C": 79.93718693299371,
-      "Desc_QuantumEnergy_C": 1998.4296733248427
+      "Desc_SpaceElevatorPart_6_C": 80,
+      "Desc_TemporalProcessor_C": 80,
+      "Desc_QuantumOscillator_C": 80,
+      "Desc_QuantumEnergy_C": 2000
     },
     "products": {
-      "Desc_SpaceElevatorPart_12_C": 79.93718693299371,
-      "Desc_DarkEnergy_C": 1998.4296733248427
-    }
-  },
-  "AI Expansion Server (Slooped)": {
-    "ingredients": {
-      "Desc_SpaceElevatorPart_6_C": 17.646236260857307,
-      "Desc_TemporalProcessor_C": 17.646236260857307,
-      "Desc_QuantumOscillator_C": 17.646236260857307,
-      "Desc_QuantumEnergy_C": 441.15590652143266
-    },
-    "products": {
-      "Desc_SpaceElevatorPart_12_C": 35.292472521714615,
-      "Desc_DarkEnergy_C": 882.3118130428653
+      "Desc_SpaceElevatorPart_12_C": 120,
+      "Desc_DarkEnergy_C": 3000
     }
   },
   "Rocket Fuel": {
     "ingredients": {
-      "Desc_LiquidTurboFuel_C": 11221.175817720788,
-      "Desc_NitricAcid_C": 1870.1959696201313
+      "Desc_LiquidTurboFuel_C": 1430.8829254008963,
+      "Desc_NitricAcid_C": 238.48048756681607
     },
     "products": {
-      "Desc_RocketFuel_C": 18701.959696201313,
-      "Desc_CompactedCoal_C": 1870.1959696201313
+      "Desc_RocketFuel_C": 2384.8048756681605,
+      "Desc_CompactedCoal_C": 238.48048756681607
+    }
+  },
+  "Heat Sink": {
+    "ingredients": {
+      "Desc_AluminumPlate_C": 2287.1428571428573,
+      "Desc_CopperSheet_C": 1372.2857142857142
+    },
+    "products": {
+      "Desc_AluminumPlateReinforced_C": 457.42857142857144
     }
   },
   "Electromagnetic Control Rod": {
     "ingredients": {
-      "Desc_Stator_C": 1075.9865806869782,
-      "Desc_CircuitBoardHighSpeed_C": 717.324387124652
+      "Desc_Stator_C": 1320.7442370507817,
+      "Desc_CircuitBoardHighSpeed_C": 880.4961580338545
     },
     "products": {
-      "Desc_ElectromagneticControlRod_C": 717.324387124652
+      "Desc_ElectromagneticControlRod_C": 880.4961580338545
     }
   },
   "Magnetic Field Generator": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_2_C": 243.95855798462756,
-      "Desc_ElectromagneticControlRod_C": 97.58342319385102
+      "Desc_SpaceElevatorPart_2_C": 200,
+      "Desc_ElectromagneticControlRod_C": 80
     },
     "products": {
-      "Desc_SpaceElevatorPart_6_C": 97.58342319385102
-    }
-  },
-  "Encased Uranium Cell": {
-    "ingredients": {
-      "Desc_OreUranium_C": 2100,
-      "Desc_Cement_C": 630,
-      "Desc_SulfuricAcid_C": 1680
-    },
-    "products": {
-      "Desc_UraniumCell_C": 1050,
-      "Desc_SulfuricAcid_C": 420
+      "Desc_SpaceElevatorPart_6_C": 80
     }
   },
   "Thermal Propulsion Rocket": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_4_C": 149.90860233696418,
-      "Desc_MotorLightweight_C": 59.96344093478568,
-      "Desc_CoolingSystem_C": 179.89032280435703,
-      "Desc_ModularFrameFused_C": 59.96344093478568
+      "Desc_SpaceElevatorPart_4_C": 138.0952380952381,
+      "Desc_MotorLightweight_C": 55.23809523809524,
+      "Desc_CoolingSystem_C": 165.71428571428572,
+      "Desc_ModularFrameFused_C": 55.23809523809524
     },
     "products": {
-      "Desc_SpaceElevatorPart_8_C": 59.96344093478568
+      "Desc_SpaceElevatorPart_8_C": 55.23809523809524
     }
   },
   "Alclad Aluminum Sheet": {
     "ingredients": {
-      "Desc_AluminumIngot_C": 6541.049796536059,
-      "Desc_CopperIngot_C": 2180.3499321786862
+      "Desc_AluminumIngot_C": 7866.555781465468,
+      "Desc_CopperIngot_C": 2622.185260488489
     },
     "products": {
-      "Desc_AluminumPlate_C": 6541.049796536059
+      "Desc_AluminumPlate_C": 7866.555781465468
     }
   },
   "Radio Control Unit": {
     "ingredients": {
-      "Desc_AluminumCasing_C": 3837.660219826283,
-      "Desc_CrystalOscillator_C": 119.92688186957135,
-      "Desc_Computer_C": 239.8537637391427
+      "Desc_AluminumCasing_C": 3535.2380952380954,
+      "Desc_CrystalOscillator_C": 110.47619047619048,
+      "Desc_Computer_C": 220.95238095238096
     },
     "products": {
-      "Desc_ModularFrameLightweight_C": 239.8537637391427
+      "Desc_ModularFrameLightweight_C": 220.95238095238096
     }
   },
   "Turbofuel": {
     "ingredients": {
-      "Desc_LiquidFuel_C": 2805.2939544301967,
-      "Desc_CompactedCoal_C": 1870.195969620131
+      "Desc_LiquidFuel_C": 2853.6642320503993,
+      "Desc_CompactedCoal_C": 1902.4428213669328
     },
     "products": {
-      "Desc_LiquidTurboFuel_C": 2337.744962025164
+      "Desc_LiquidTurboFuel_C": 2378.053526708666
     }
   },
   "Packaged Turbofuel": {
     "ingredients": {
-      "Desc_LiquidTurboFuel_C": 3349.574464101484,
-      "Desc_FluidCanister_C": 3349.574464101484
+      "Desc_LiquidTurboFuel_C": 3136.507936507937,
+      "Desc_FluidCanister_C": 3136.507936507937
     },
     "products": {
-      "Desc_TurboFuel_C": 3349.574464101484
+      "Desc_TurboFuel_C": 3136.507936507937
     }
   },
   "Modular Engine": {
     "ingredients": {
-      "Desc_Motor_C": 299.81720467392836,
-      "Desc_Rubber_C": 2248.6290350544627,
-      "Desc_SpaceElevatorPart_1_C": 299.81720467392836
+      "Desc_Motor_C": 276.1904761904762,
+      "Desc_Rubber_C": 2071.4285714285716,
+      "Desc_SpaceElevatorPart_1_C": 276.1904761904762
     },
     "products": {
-      "Desc_SpaceElevatorPart_4_C": 149.90860233696418
+      "Desc_SpaceElevatorPart_4_C": 138.0952380952381
     }
   },
   "Adaptive Control Unit": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_3_C": 1643.2840828987792,
-      "Desc_CircuitBoard_C": 1643.2840828987792,
-      "Desc_ModularFrameHeavy_C": 328.65681657975585,
-      "Desc_Computer_C": 657.3136331595117
+      "Desc_SpaceElevatorPart_3_C": 1408.6441200210836,
+      "Desc_CircuitBoard_C": 1408.6441200210836,
+      "Desc_ModularFrameHeavy_C": 281.7288240042167,
+      "Desc_Computer_C": 563.4576480084334
     },
     "products": {
-      "Desc_SpaceElevatorPart_5_C": 328.65681657975585
+      "Desc_SpaceElevatorPart_5_C": 281.7288240042167
     }
   },
   "Smart Plating": {
     "ingredients": {
-      "Desc_IronPlateReinforced_C": 299.81720467392836,
-      "Desc_Rotor_C": 299.81720467392836
+      "Desc_IronPlateReinforced_C": 276.1904761904762,
+      "Desc_Rotor_C": 276.1904761904762
     },
     "products": {
-      "Desc_SpaceElevatorPart_1_C": 299.81720467392836
+      "Desc_SpaceElevatorPart_1_C": 276.1904761904762
+    }
+  },
+  "AI Limiter": {
+    "ingredients": {
+      "Desc_CopperSheet_C": 6845.238162213114,
+      "Desc_HighSpeedWire_C": 27380.952648852457
+    },
+    "products": {
+      "Desc_CircuitBoardHighSpeed_C": 1369.047632442623
     }
   },
   "Singularity Cell": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_9_C": 29.981720467392833,
-      "Desc_DarkMatter_C": 599.6344093478567,
-      "Desc_IronPlate_C": 2998.1720467392834,
-      "Desc_Cement_C": 5996.344093478567
+      "Desc_SpaceElevatorPart_9_C": 27.619047619047613,
+      "Desc_DarkMatter_C": 552.3809523809523,
+      "Desc_IronPlate_C": 2761.9047619047615,
+      "Desc_Cement_C": 5523.809523809523
     },
     "products": {
-      "Desc_SingularityCell_C": 299.81720467392836
+      "Desc_SingularityCell_C": 276.19047619047615
     }
   },
-  "Ballistic Warp Drive (Slooped)": {
+  "Ballistic Warp Drive": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_8_C": 59.96344093478568,
-      "Desc_SingularityCell_C": 299.81720467392836,
-      "Desc_QuantumOscillator_C": 119.92688186957136,
-      "Desc_DarkMatter_C": 2398.537637391427
+      "Desc_SpaceElevatorPart_8_C": 0.2380952380952408,
+      "Desc_SingularityCell_C": 1.190476190476204,
+      "Desc_QuantumOscillator_C": 0.4761904761904816,
+      "Desc_DarkMatter_C": 9.523809523809632
     },
     "products": {
-      "Desc_SpaceElevatorPart_11_C": 119.92688186957136
+      "Desc_SpaceElevatorPart_11_C": 0.2380952380952408
+    }
+  },
+  "Ballistic Warp Drive (Sloopedx4)": {
+    "ingredients": {
+      "Desc_SpaceElevatorPart_8_C": 55,
+      "Desc_SingularityCell_C": 275,
+      "Desc_QuantumOscillator_C": 110,
+      "Desc_DarkMatter_C": 2200
+    },
+    "products": {
+      "Desc_SpaceElevatorPart_11_C": 110
     }
   },
   "Sulfuric Acid": {
     "ingredients": {
-      "Desc_Sulfur_C": 1732.5,
-      "Desc_Water_C": 1732.5
+      "Desc_Sulfur_C": 756,
+      "Desc_Water_C": 756
     },
     "products": {
-      "Desc_SulfuricAcid_C": 1732.5
+      "Desc_SulfuricAcid_C": 756
     }
   },
   "Assembly Director System": {
     "ingredients": {
-      "Desc_SpaceElevatorPart_5_C": 328.65681657975585,
-      "Desc_ComputerSuper_C": 164.32840828987793
+      "Desc_SpaceElevatorPart_5_C": 281.7288240042167,
+      "Desc_ComputerSuper_C": 140.86441200210834
     },
     "products": {
-      "Desc_SpaceElevatorPart_7_C": 164.32840828987793
+      "Desc_SpaceElevatorPart_7_C": 140.86441200210834
     }
   },
   "Alternate: Iron Wire": {
     "ingredients": {
-      "Desc_IronIngot_C": 65303.08925338494
+      "Desc_IronIngot_C": 53852.85970541862
     },
     "products": {
-      "Desc_Wire_C": 117545.56065609289
+      "Desc_Wire_C": 96935.14746975352
+    }
+  },
+  "Alternate: Infused Uranium Cell": {
+    "ingredients": {
+      "Desc_OreUranium_C": 2100,
+      "Desc_Silica_C": 1260,
+      "Desc_Sulfur_C": 2100,
+      "Desc_HighSpeedWire_C": 6300
+    },
+    "products": {
+      "Desc_UraniumCell_C": 1680
     }
   },
   "Alternate: Turbo Electric Motor": {
     "ingredients": {
-      "Desc_Motor_C": 139.91469551449993,
-      "Desc_ModularFrameLightweight_C": 179.89032280435703,
-      "Desc_ElectromagneticControlRod_C": 99.9390682246428,
-      "Desc_Rotor_C": 139.91469551449993
+      "Desc_Motor_C": 128.8888888888889,
+      "Desc_ModularFrameLightweight_C": 165.71428571428572,
+      "Desc_ElectromagneticControlRod_C": 92.06349206349208,
+      "Desc_Rotor_C": 128.8888888888889
     },
     "products": {
-      "Desc_MotorLightweight_C": 59.96344093478568
+      "Desc_MotorLightweight_C": 55.23809523809524
     }
   },
   "Alternate: Cheap Silica": {
     "ingredients": {
-      "Desc_RawQuartz_C": 8676.459505292267,
-      "Desc_Stone_C": 14460.765842153778
+      "Desc_RawQuartz_C": 7218.6239004586905,
+      "Desc_Stone_C": 12031.039834097819
     },
     "products": {
-      "Desc_Silica_C": 20245.07217901529
+      "Desc_Silica_C": 16843.455767736945
     }
   },
   "Alternate: Steel Screws": {
     "ingredients": {
-      "Desc_SteelPlate_C": 1018.6599038990004
+      "Desc_SteelPlate_C": 353.6719576719578
     },
     "products": {
-      "Desc_IronScrew_C": 52970.315002748015
+      "Desc_IronScrew_C": 18390.941798941803
     }
   },
   "Alternate: Encased Industrial Pipe": {
     "ingredients": {
-      "Desc_SteelPipe_C": 8372.039559638688,
-      "Desc_Cement_C": 6976.69963303224
+      "Desc_SteelPipe_C": 7291.719337227191,
+      "Desc_Cement_C": 6076.43278102266
     },
     "products": {
-      "Desc_SteelPlateReinforced_C": 1395.339926606448
+      "Desc_SteelPlateReinforced_C": 1215.286556204532
     }
   },
   "Alternate: Stitched Iron Plate": {
     "ingredients": {
-      "Desc_IronPlate_C": 7190.646783633788,
-      "Desc_Wire_C": 14381.293567267576
+      "Desc_IronPlate_C": 3303.3665761096436,
+      "Desc_Wire_C": 6606.733152219287
     },
     "products": {
-      "Desc_IronPlateReinforced_C": 2157.1940350901364
+      "Desc_IronPlateReinforced_C": 991.0099728328931
     }
   },
   "Alternate: Fused Quickwire": {
     "ingredients": {
-      "Desc_GoldIngot_C": 3504.644072946723,
-      "Desc_CopperIngot_C": 17523.220364733617
+      "Desc_GoldIngot_C": 4174.785311801129,
+      "Desc_CopperIngot_C": 20873.926559005646
     },
     "products": {
-      "Desc_HighSpeedWire_C": 42055.72887536068
+      "Desc_HighSpeedWire_C": 50097.42374161355
     }
   },
   "Alternate: Recycled Plastic": {
     "ingredients": {
-      "Desc_Rubber_C": 10296.299518550168,
-      "Desc_LiquidFuel_C": 10296.299518550168
+      "Desc_Rubber_C": 6308.979494221244,
+      "Desc_LiquidFuel_C": 6308.979494221244
     },
     "products": {
-      "Desc_Plastic_C": 20592.599037100335
+      "Desc_Plastic_C": 12617.958988442488
     }
   },
   "Alternate: Uranium Fuel Unit": {
     "ingredients": {
-      "Desc_UraniumCell_C": 1050,
-      "Desc_ElectromagneticControlRod_C": 105,
-      "Desc_CrystalOscillator_C": 31.5,
-      "Desc_Rotor_C": 105
+      "Desc_UraniumCell_C": 1680,
+      "Desc_ElectromagneticControlRod_C": 168,
+      "Desc_CrystalOscillator_C": 50.400000000000006,
+      "Desc_Rotor_C": 168
     },
     "products": {
-      "Desc_NuclearFuelRod_C": 31.5
+      "Desc_NuclearFuelRod_C": 50.400000000000006
     }
   },
-  "Alternate: Rigor Motor": {
+  "Alternate: Steeled Frame": {
     "ingredients": {
-      "Desc_Rotor_C": 18.68122129948955,
-      "Desc_Stator_C": 18.68122129948955,
-      "Desc_CrystalOscillator_C": 6.227073766496517
+      "Desc_IronPlateReinforced_C": 714.819496642417,
+      "Desc_SteelPipe_C": 3574.0974832120846
     },
     "products": {
-      "Desc_Motor_C": 37.3624425989791
+      "Desc_ModularFrame_C": 1072.2292449636254
     }
   },
-  "Alternate: Silicon High-Speed Connector": {
+  "Alternate: Solid Steel Ingot": {
     "ingredients": {
-      "Desc_HighSpeedWire_C": 2107.7586791007634,
-      "Desc_Silica_C": 878.2327829586515,
-      "Desc_CircuitBoard_C": 70.25862263669211
+      "Desc_IronIngot_C": 2080.7822061157995,
+      "Desc_Coal_C": 2080.7822061157995
     },
     "products": {
-      "Desc_HighSpeedConnector_C": 70.25862263669211
+      "Desc_SteelIngot_C": 3121.173309173699
     }
   },
   "Alternate: Heavy Encased Frame": {
     "ingredients": {
-      "Desc_ModularFrame_C": 1116.2719412851584,
-      "Desc_SteelPlateReinforced_C": 1395.339926606448,
-      "Desc_SteelPipe_C": 5023.223735783213,
-      "Desc_Cement_C": 3069.7478385341856
+      "Desc_ModularFrame_C": 972.2292449636254,
+      "Desc_SteelPlateReinforced_C": 1215.286556204532,
+      "Desc_SteelPipe_C": 4375.031602336315,
+      "Desc_Cement_C": 2673.63042364997
     },
     "products": {
-      "Desc_ModularFrameHeavy_C": 418.6019779819344
-    }
-  },
-  "Alternate: Heat Exchanger": {
-    "ingredients": {
-      "Desc_AluminumCasing_C": 1315.591936826142,
-      "Desc_Rubber_C": 1315.591936826142
-    },
-    "products": {
-      "Desc_AluminumPlateReinforced_C": 438.53064560871405
-    }
-  },
-  "Alternate: Electromagnetic Connection Rod": {
-    "ingredients": {
-      "Desc_Stator_C": 140.51724527338422,
-      "Desc_HighSpeedConnector_C": 70.25862263669211
-    },
-    "products": {
-      "Desc_ElectromagneticControlRod_C": 140.51724527338422
+      "Desc_ModularFrameHeavy_C": 364.58596686135957
     }
   },
   "Alternate: Insulated Crystal Oscillator": {
     "ingredients": {
-      "Desc_QuartzCrystal_C": 3751.6426069949025,
-      "Desc_Rubber_C": 2626.1498248964317,
-      "Desc_CircuitBoardHighSpeed_C": 375.1642606994903
+      "Desc_QuartzCrystal_C": 4885.514744087684,
+      "Desc_Rubber_C": 3419.860320861379,
+      "Desc_CircuitBoardHighSpeed_C": 488.5514744087684
     },
     "products": {
-      "Desc_CrystalOscillator_C": 375.1642606994903
+      "Desc_CrystalOscillator_C": 488.5514744087684
+    }
+  },
+  "Alternate: Crystal Computer": {
+    "ingredients": {
+      "Desc_CircuitBoard_C": 411.59728036916243,
+      "Desc_CrystalOscillator_C": 137.19909345638746
+    },
+    "products": {
+      "Desc_Computer_C": 274.3981869127749
     }
   },
   "Alternate: Caterium Computer": {
     "ingredients": {
-      "Desc_CircuitBoard_C": 6731.611565399366,
-      "Desc_HighSpeedWire_C": 23560.640478897778,
-      "Desc_Rubber_C": 10097.417348099048
+      "Desc_CircuitBoard_C": 4690.420312217459,
+      "Desc_HighSpeedWire_C": 16416.471092761105,
+      "Desc_Rubber_C": 7035.630468326188
     },
     "products": {
-      "Desc_Computer_C": 1682.9028913498414
+      "Desc_Computer_C": 1172.6050780543646
     }
   },
   "Alternate: Silicon Circuit Board": {
     "ingredients": {
-      "Desc_CopperSheet_C": 18579.339396056643,
-      "Desc_Silica_C": 18579.339396056643
+      "Desc_CopperSheet_C": 14323.455767736948,
+      "Desc_Silica_C": 14323.455767736948
     },
     "products": {
-      "Desc_CircuitBoard_C": 8445.154270934838
-    }
-  },
-  "Alternate: Molded Steel Pipe": {
-    "ingredients": {
-      "Desc_SteelIngot_C": 150.66783493069943,
-      "Desc_Cement_C": 90.40070095841966
-    },
-    "products": {
-      "Desc_SteelPipe_C": 150.66783493069943
+      "Desc_CircuitBoard_C": 6510.661712607704
     }
   },
   "Alternate: Iron Pipe": {
     "ingredients": {
-      "Desc_IronIngot_C": 87520.0114038678
+      "Desc_IronIngot_C": 93716.05397596475
     },
     "products": {
-      "Desc_SteelPipe_C": 21880.00285096695
+      "Desc_SteelPipe_C": 23429.013493991188
     }
   },
   "Alternate: Molded Beam": {
     "ingredients": {
-      "Desc_SteelIngot_C": 5046.094874274355,
-      "Desc_Cement_C": 3364.0632495162363
+      "Desc_SteelIngot_C": 3121.173309173699,
+      "Desc_Cement_C": 2080.7822061157995
     },
     "products": {
-      "Desc_SteelPlate_C": 1892.285577852883
+      "Desc_SteelPlate_C": 1170.4399909401372
     }
   },
-  "Alternate: Plastic AI Limiter": {
+  "Alternate: Aluminum Beam": {
     "ingredients": {
-      "Desc_HighSpeedWire_C": 16387.329717362136,
-      "Desc_Plastic_C": 3823.7102673844984
+      "Desc_AluminumIngot_C": 91.31722619170705
     },
     "products": {
-      "Desc_CircuitBoardHighSpeed_C": 1092.4886478241424
+      "Desc_SteelPlate_C": 91.31722619170705
     }
   },
   "Alternate: Turbo Blend Fuel": {
     "ingredients": {
-      "Desc_LiquidFuel_C": 4077.668439932369,
-      "Desc_HeavyOilResidue_C": 8155.336879864738,
-      "Desc_Sulfur_C": 6116.502659898553,
-      "Desc_PetroleumCoke_C": 6116.502659898553
+      "Desc_LiquidFuel_C": 729.7791117333887,
+      "Desc_HeavyOilResidue_C": 1459.5582234667775,
+      "Desc_Sulfur_C": 1094.6686676000832,
+      "Desc_PetroleumCoke_C": 1094.6686676000832
     },
     "products": {
-      "Desc_LiquidTurboFuel_C": 12233.005319797106
+      "Desc_LiquidTurboFuel_C": 2189.3373352001663
     }
   },
   "Alternate: Super-State Computer": {
     "ingredients": {
-      "Desc_Computer_C": 785.7354944511869,
-      "Desc_ElectromagneticControlRod_C": 261.911831483729,
-      "Desc_Battery_C": 2619.1183148372897,
-      "Desc_Wire_C": 6547.795787093225
+      "Desc_Computer_C": 662.593236006325,
+      "Desc_ElectromagneticControlRod_C": 220.86441200210834,
+      "Desc_Battery_C": 2208.6441200210834,
+      "Desc_Wire_C": 5521.610300052709
     },
     "products": {
-      "Desc_ComputerSuper_C": 261.911831483729
+      "Desc_ComputerSuper_C": 220.86441200210834
     }
   },
   "Alternate: Sloppy Alumina": {
     "ingredients": {
-      "Desc_OreBauxite_C": 19860.97920605857,
-      "Desc_Water_C": 19860.97920605857
+      "Desc_OreBauxite_C": 18414.38094416511,
+      "Desc_Water_C": 18414.38094416511
     },
     "products": {
-      "Desc_AluminaSolution_C": 23833.175047270284
+      "Desc_AluminaSolution_C": 22097.257132998133
     }
   },
   "Alternate: Heat-Fused Frame": {
     "ingredients": {
-      "Desc_ModularFrameHeavy_C": 89.94516140217851,
-      "Desc_AluminumIngot_C": 4497.2580701089255,
-      "Desc_NitricAcid_C": 719.5612912174281,
-      "Desc_LiquidFuel_C": 899.4516140217852
+      "Desc_ModularFrameHeavy_C": 82.85714285714286,
+      "Desc_AluminumIngot_C": 4142.857142857143,
+      "Desc_NitricAcid_C": 662.8571428571429,
+      "Desc_LiquidFuel_C": 828.5714285714286
     },
     "products": {
-      "Desc_ModularFrameFused_C": 89.94516140217851
+      "Desc_ModularFrameFused_C": 82.85714285714286
     }
   },
   "Alternate: Electric Motor": {
     "ingredients": {
-      "Desc_ElectromagneticControlRod_C": 246.1573094958139,
-      "Desc_Rotor_C": 492.3146189916278
+      "Desc_ElectromagneticControlRod_C": 243.96825396825398,
+      "Desc_Rotor_C": 487.93650793650795
     },
     "products": {
-      "Desc_Motor_C": 492.3146189916278
+      "Desc_Motor_C": 487.93650793650795
     }
   },
   "Alternate: Diluted Fuel": {
     "ingredients": {
-      "Desc_HeavyOilResidue_C": 14160.464909352659,
-      "Desc_Water_C": 28320.929818705317
+      "Desc_HeavyOilResidue_C": 12520.301428111186,
+      "Desc_Water_C": 25040.602856222373
     },
     "products": {
-      "Desc_LiquidFuel_C": 28320.929818705317
+      "Desc_LiquidFuel_C": 25040.602856222373
     }
   },
   "Alternate: Cooling Device": {
     "ingredients": {
-      "Desc_AluminumPlateReinforced_C": 359.78064560871405,
-      "Desc_Motor_C": 89.94516140217851,
-      "Desc_NitrogenGas_C": 2158.683873652284
+      "Desc_AluminumPlateReinforced_C": 331.42857142857144,
+      "Desc_Motor_C": 82.85714285714286,
+      "Desc_NitrogenGas_C": 1988.5714285714287
     },
     "products": {
-      "Desc_CoolingSystem_C": 179.89032280435703
+      "Desc_CoolingSystem_C": 165.71428571428572
     }
   },
   "Alternate: Classic Battery": {
     "ingredients": {
-      "Desc_Sulfur_C": 3928.6774722559344,
-      "Desc_AluminumPlate_C": 4583.457050965257,
-      "Desc_Plastic_C": 5238.2366296745795,
-      "Desc_Wire_C": 7857.354944511869
+      "Desc_Sulfur_C": 3312.9661800316258,
+      "Desc_AluminumPlate_C": 3865.1272100368965,
+      "Desc_Plastic_C": 4417.288240042168,
+      "Desc_Wire_C": 6625.9323600632515
     },
     "products": {
-      "Desc_Battery_C": 2619.1183148372897
+      "Desc_Battery_C": 2208.644120021084
     }
   },
   "Alternate: Alclad Casing": {
     "ingredients": {
-      "Desc_AluminumIngot_C": 6871.0028755365665,
-      "Desc_CopperIngot_C": 3435.5014377682833
+      "Desc_AluminumIngot_C": 4713.650793650794,
+      "Desc_CopperIngot_C": 2356.825396825397
     },
     "products": {
-      "Desc_AluminumCasing_C": 5153.252156652425
+      "Desc_AluminumCasing_C": 3535.2380952380954
     }
   },
   "Alternate: Wet Concrete": {
     "ingredients": {
-      "Desc_Stone_C": 31608.38327327944,
-      "Desc_Water_C": 26340.319394399532
+      "Desc_Stone_C": 26799.982401896938,
+      "Desc_Water_C": 22333.318668247448
     },
     "products": {
-      "Desc_Cement_C": 21072.255515519628
+      "Desc_Cement_C": 17866.65493459796
     }
   },
   "Alternate: Steamed Copper Sheet": {
     "ingredients": {
-      "Desc_CopperIngot_C": 21528.188493041107,
-      "Desc_Water_C": 21528.188493041107
+      "Desc_CopperIngot_C": 25447.1383743945,
+      "Desc_Water_C": 25447.1383743945
     },
     "products": {
-      "Desc_CopperSheet_C": 21528.188493041107
+      "Desc_CopperSheet_C": 25447.1383743945
     }
   },
   "Alternate: Recycled Rubber": {
     "ingredients": {
-      "Desc_Plastic_C": 10242.2162917708,
-      "Desc_LiquidFuel_C": 10242.2162917708
+      "Desc_Plastic_C": 7663.759254445433,
+      "Desc_LiquidFuel_C": 7663.759254445433
     },
     "products": {
-      "Desc_Rubber_C": 20484.4325835416
+      "Desc_Rubber_C": 15327.518508890866
     }
   },
   "Alternate: Pure Quartz Crystal": {
     "ingredients": {
-      "Desc_RawQuartz_C": 4823.540494707732,
-      "Desc_Water_C": 2679.744719282073
+      "Desc_RawQuartz_C": 6281.376099541309,
+      "Desc_Water_C": 3489.6533886340603
     },
     "products": {
-      "Desc_QuartzCrystal_C": 3751.6426069949025
+      "Desc_QuartzCrystal_C": 4885.514744087684
     }
   },
   "Alternate: Pure Iron Ingot": {
     "ingredients": {
-      "Desc_OreIron_C": 85758.22763770998,
-      "Desc_Water_C": 49004.70150726284
+      "Desc_OreIron_C": 84301.28954291955,
+      "Desc_Water_C": 48172.16545309689
     },
     "products": {
-      "Desc_IronIngot_C": 159265.27989860423
+      "Desc_IronIngot_C": 156559.53772256488
     }
   },
   "Alternate: Pure Copper Ingot": {
     "ingredients": {
-      "Desc_OreCopper_C": 32258.129915436984,
-      "Desc_Water_C": 21505.419943624656
+      "Desc_OreCopper_C": 33777.17309342847,
+      "Desc_Water_C": 22518.11539561898
     },
     "products": {
-      "Desc_CopperIngot_C": 80645.32478859246
+      "Desc_CopperIngot_C": 84442.93273357117
     }
   },
   "Alternate: Pure Caterium Ingot": {
     "ingredients": {
-      "Desc_OreGold_C": 7009.288145893446,
-      "Desc_Water_C": 7009.288145893446
+      "Desc_OreGold_C": 8349.570623602258,
+      "Desc_Water_C": 8349.570623602258
     },
     "products": {
-      "Desc_GoldIngot_C": 3504.644072946723
+      "Desc_GoldIngot_C": 4174.785311801129
     }
   },
   "Alternate: Pure Aluminum Ingot": {
     "ingredients": {
-      "Desc_AluminumScrap_C": 39721.95841211714
+      "Desc_AluminumScrap_C": 36828.76188833022
     },
     "products": {
-      "Desc_AluminumIngot_C": 19860.97920605857
+      "Desc_AluminumIngot_C": 18414.38094416511
     }
   },
   "Alternate: Heavy Oil Residue": {
     "ingredients": {
-      "Desc_LiquidOil_C": 21226.46793546949
+      "Desc_LiquidOil_C": 12600
     },
     "products": {
-      "Desc_HeavyOilResidue_C": 28301.957247292656,
-      "Desc_PolymerResin_C": 14150.978623646328
+      "Desc_HeavyOilResidue_C": 16800,
+      "Desc_PolymerResin_C": 8400
     }
   },
   "Alternate: Flexible Framework": {
     "ingredients": {
-      "Desc_ModularFrame_C": 121.97927899231378,
-      "Desc_SteelPlate_C": 731.8756739538827,
-      "Desc_Rubber_C": 975.8342319385102
+      "Desc_ModularFrame_C": 86.45245675668556,
+      "Desc_SteelPlate_C": 518.7147405401133,
+      "Desc_Rubber_C": 691.6196540534845
     },
     "products": {
-      "Desc_SpaceElevatorPart_2_C": 243.95855798462756
+      "Desc_SpaceElevatorPart_2_C": 172.90491351337113
     }
   },
   "Alternate: Electrode Aluminum Scrap": {
     "ingredients": {
-      "Desc_AluminaSolution_C": 23833.175047270284,
-      "Desc_PetroleumCoke_C": 7944.391682423428
+      "Desc_AluminaSolution_C": 22097.257132998133,
+      "Desc_PetroleumCoke_C": 7365.752377666045
     },
     "products": {
-      "Desc_AluminumScrap_C": 39721.95841211714,
-      "Desc_Water_C": 13902.685444241
+      "Desc_AluminumScrap_C": 36828.76188833022,
+      "Desc_Water_C": 12890.066660915578
     }
   },
   "Alternate: Copper Rotor": {
     "ingredients": {
-      "Desc_CopperSheet_C": 2111.4554809590913,
-      "Desc_IronScrew_C": 18299.280834978792
+      "Desc_CopperSheet_C": 2122.0317460317465,
+      "Desc_IronScrew_C": 18390.941798941803
     },
     "products": {
-      "Desc_Rotor_C": 1055.7277404795457
-    }
-  },
-  "Alternate: Coke Steel Ingot": {
-    "ingredients": {
-      "Desc_OreIron_C": 3897.572031903791,
-      "Desc_PetroleumCoke_C": 3897.572031903791
-    },
-    "products": {
-      "Desc_SteelIngot_C": 5196.762709205054
+      "Desc_Rotor_C": 1061.0158730158732
     }
   },
   "Alternate: Coated Iron Plate": {
     "ingredients": {
-      "Desc_IronIngot_C": 6442.1792413514995,
-      "Desc_Plastic_C": 1288.4358482702999
+      "Desc_IronIngot_C": 2684.557469774436,
+      "Desc_Plastic_C": 536.9114939548872
     },
     "products": {
-      "Desc_IronPlate_C": 12884.358482702999
+      "Desc_IronPlate_C": 5369.114939548872
     }
   },
   "Alternate: Coated Iron Canister": {
     "ingredients": {
-      "Desc_IronPlate_C": 1674.787232050742,
-      "Desc_CopperSheet_C": 837.393616025371
+      "Desc_IronPlate_C": 1568.2539682539684,
+      "Desc_CopperSheet_C": 784.1269841269842
     },
     "products": {
-      "Desc_FluidCanister_C": 3349.574464101484
+      "Desc_FluidCanister_C": 3136.507936507937
     }
   },
-  "Alternate: Bolted Frame": {
+  "Alternate: Nitro Rocket Fuel": {
     "ingredients": {
-      "Desc_IronPlateReinforced_C": 1857.3768304162083,
-      "Desc_IronScrew_C": 34671.03416776922
+      "Desc_LiquidFuel_C": 6655.84933520047,
+      "Desc_NitrogenGas_C": 4991.887001400352,
+      "Desc_Sulfur_C": 6655.84933520047,
+      "Desc_Coal_C": 3327.924667600235
     },
     "products": {
-      "Desc_ModularFrame_C": 1238.2512202774722
+      "Desc_RocketFuel_C": 9983.774002800705,
+      "Desc_CompactedCoal_C": 1663.9623338001174
     }
   },
   "Alternate: Turbo Diamonds": {
     "ingredients": {
-      "Desc_Coal_C": 50243.61696152225,
-      "Desc_TurboFuel_C": 3349.574464101484
+      "Desc_Coal_C": 47047.61904761905,
+      "Desc_TurboFuel_C": 3136.507936507937
     },
     "products": {
-      "Desc_Diamond_C": 5024.361696152226
-    }
-  },
-  "Alternate: Oil-Based Diamonds": {
-    "ingredients": {
-      "Desc_LiquidOil_C": 1273.532064530511
-    },
-    "products": {
-      "Desc_Diamond_C": 254.7064129061022
+      "Desc_Diamond_C": 4704.7619047619055
     }
   },
   "Alternate: Dark Matter Trap": {
     "ingredients": {
-      "Desc_TimeCrystal_C": 2151.616938559909,
-      "Desc_DarkEnergy_C": 10758.084692799546
+      "Desc_TimeCrystal_C": 1952.3809523809527,
+      "Desc_DarkEnergy_C": 9761.904761904763
     },
     "products": {
-      "Desc_DarkMatter_C": 4303.233877119818
+      "Desc_DarkMatter_C": 3904.7619047619055
     }
   },
   "Fuel Gen (Desc_RocketFuel_C)": {
     "ingredients": {
-      "Desc_RocketFuel_C": 18701.959696201313
+      "Desc_RocketFuel_C": 12368.578878468867
     },
     "products": {}
   },
   "Nuclear Plant (Desc_NuclearFuelRod_C)": {
     "ingredients": {
-      "Desc_NuclearFuelRod_C": 31.5,
-      "Desc_Water_C": 37800
+      "Desc_NuclearFuelRod_C": 50.4,
+      "Desc_Water_C": 60480
     },
     "products": {
-      "Desc_NuclearWaste_C": 1575
+      "Desc_NuclearWaste_C": 2520
     }
   }
 }

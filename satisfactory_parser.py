@@ -33,6 +33,7 @@ MACHINE_TO_POWER = {
   'Build_MinerMk1_C': 5,
   'Build_MinerMk2_C': 15,
   'Build_MinerMk3_C': 45,
+  'Build_OilPump_C': 40,
   'Build_FrackingSmasher_C': 150,
   'Build_SmelterMk1_C': 4,
   'Build_ConstructorMk1_C': 4,
@@ -90,20 +91,30 @@ class ResourceNode:
   pure_nodes: int
 
 
-RESOURCES = [
+RESOURCE_NODES = [
   ResourceNode('Desc_OreIron_C', 'Iron', 39, 42, 46),
   ResourceNode('Desc_Coal_C', 'Coal', 15, 31, 16),
-  ResourceNode('Desc_NitrogenGas_C', 'Nitrogen Well', 2, 7, 36),
   ResourceNode('Desc_Sulfur_C', 'Sulfur', 6, 5, 5),
   ResourceNode('Desc_SAM_C', 'SAM', 10, 6, 3),
   ResourceNode('Desc_OreBauxite_C', 'Bauxite', 5, 6, 6),
   ResourceNode('Desc_OreGold_C', 'Caterium', 0, 9, 8),
   ResourceNode('Desc_OreCopper_C', 'Copper', 13, 29, 13),
-  ResourceNode('Desc_Stone_C', 'Limestone', 15, 49, 30),
+  ResourceNode('Desc_Stone_C', 'Limestone', 15, 50, 29),
   ResourceNode('Desc_RawQuartz_C', 'Quartz', 3, 7, 7),
   ResourceNode('Desc_OreUranium_C', 'Uranium', 3, 2, 0),
   ResourceNode('Desc_LiquidOil_C', 'Oil', 10, 12, 8),
-  ResourceNode('Desc_LiquidOil_C', 'Oil Well', 8, 6, 4),
+]
+
+RESOURCE_WELLS = [
+  ResourceNode('Desc_NitrogenGas_C', 'Nitrogen Well 1', 0, 1, 6),
+  ResourceNode('Desc_NitrogenGas_C', 'Nitrogen Well 2', 0, 2, 5),
+  ResourceNode('Desc_NitrogenGas_C', 'Nitrogen Well 3', 2, 2, 4),
+  ResourceNode('Desc_NitrogenGas_C', 'Nitrogen Well 4', 0, 0, 10),
+  ResourceNode('Desc_NitrogenGas_C', 'Nitrogen Well 5', 0, 2, 4),
+  ResourceNode('Desc_NitrogenGas_C', 'Nitrogen Well 6', 0, 0, 7),
+  ResourceNode('Desc_LiquidOil_C', 'Oil Well 1', 2, 3, 1),
+  ResourceNode('Desc_LiquidOil_C', 'Oil Well 2', 0, 3, 3),
+  ResourceNode('Desc_LiquidOil_C', 'Oil Well 3', 6, 0, 0),
 ]
 
 
@@ -213,13 +224,13 @@ def create_sink_recipes(items: list[Item]) -> list[Recipe]:
 
 def create_resource_recipes() -> list[Recipe]:
   recipes = []
-  for resource in RESOURCES:
+  for resource in RESOURCE_NODES:
     name = resource.display_name
     mining_speed = 240
     energy_cost = MACHINE_TO_POWER['Build_MinerMk3_C']
-    if 'Well' in name:
-      mining_speed = 60
-      energy_cost = MACHINE_TO_POWER['Build_FrackingSmasher_C']
+    if name == 'Oil':
+      mining_speed = 120
+      energy_cost = MACHINE_TO_POWER['Build_OilPump_C']
     recipes.append(Recipe(
       f'{name}_Impure_C', f'{name} (Impure)', [],
       [RecipeItem(resource.item_class, 0.5 * mining_speed)], -energy_cost, 0, 0))
@@ -229,6 +240,14 @@ def create_resource_recipes() -> list[Recipe]:
     recipes.append(Recipe(
       f'{name}_Pure_C', f'{name} (Pure)', [],
       [RecipeItem(resource.item_class, 2 * mining_speed)], -energy_cost, 0, 0))
+
+  for resource in RESOURCE_WELLS:
+    name = resource.display_name
+    mining_speed = 60 * (0.5 * resource.impure_nodes + resource.normal_nodes + 2 * resource.pure_nodes)
+    energy_cost = MACHINE_TO_POWER['Build_FrackingSmasher_C']
+    recipes.append(Recipe(
+      f'{name}_C', name, [],
+      [RecipeItem(resource.item_class, mining_speed)], -energy_cost, 0, 0))
   recipes.append(Recipe('Recipe_Water_C', 'Water', [], [RecipeItem('Desc_Water_C', 120)], -20, 0, 0))
   return recipes
 
@@ -307,7 +326,9 @@ def parse_recipes(satisfactoryJson: list[dict[str, Any]], itemsDict: dict[str, I
                             -energyCost, 0, 0))
 
       if machine in MACHINE_TO_SLOOPS:
-        slooped_products = [RecipeItem(p.itemClass, 2 * p.rate) for p in products]
-        recipes.append(Recipe(f'{recipe['ClassName']}_Slooped', f'{recipe['mDisplayName']} (Slooped)',
-                              ingredients, slooped_products, -4 * energyCost, MACHINE_TO_SLOOPS[machine], 0))
+        for num_sloops in range(1, MACHINE_TO_SLOOPS[machine] + 1):
+          sloop_ratio = num_sloops/float(MACHINE_TO_SLOOPS[machine])
+          slooped_products = [RecipeItem(p.itemClass, (1 + sloop_ratio) * p.rate) for p in products]
+          recipes.append(Recipe(f'{recipe['ClassName']}_Slooped_{num_sloops}', f'{recipe['mDisplayName']} (Sloopedx{num_sloops})',
+                                ingredients, slooped_products, -pow(1+sloop_ratio, 2) * energyCost, num_sloops, 0))
   return recipes
